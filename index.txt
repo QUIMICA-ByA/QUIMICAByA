@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quimica B&A - Soluciones Quimicas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #5d1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-height: 100px;
+    }
+    nav {
+      background-color: #3e1313;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #5d1a1a;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .producto {
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .producto h3 {
+      margin-top: 0;
+    }
+    .boton {
+      background-color: #5d1a1a;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #3e1313;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Quimica B&A</h1>
+    <p>Soluciones Químicas de Alto Rendimiento</p>
+  </header> <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+  </nav> <section id="nosotros">
+    <h2>Quienes somos</h2>
+    <p>Somos una empresa especializada en la elaboracion de productos quimicos de alta calidad para uso domestico e industrial. Nos enfocamos en ofrecer soluciones efectivas y seguras para nuestros clientes.</p>
+  </section> <section id="productos">
+    <h2>Productos</h2>
+    <div class="productos">
+      <div class="producto">
+        <h3>Detergente Liquido</h3>
+        <p>Para ropa. Limpieza profunda y fragancia duradera.</p>
+      </div>
+      <div class="producto">
+        <h3>Lavavajillas</h3>
+        <p>Remueve grasa y residuos dificiles.</p>
+      </div>
+      <div class="producto">
+        <h3>Jabon Liquido Corporal</h3>
+        <p>Suave con la piel. Ideal para uso diario.</p>
+      </div>
+      <div class="producto">
+        <h3>Desodorante de Piso</h3>
+        <p>Fragancias agradables. Limpieza y aroma duraderos.</p>
+      </div>
+      <div class="producto">
+        <h3>Perfume para Ropa</h3>
+        <p>Fija el aroma en los tejidos por mas tiempo.</p>
+      </div>
+      <div class="producto">
+        <h3>Gel Capilar</h3>
+        <p>Fijacion fuerte sin dejar residuos.</p>
+      </div>
+    </div>
+    <a class="boton" href="#">Descargar catalogo PDF</a>
+  </section> <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Podes comunicarte con nosotros para solicitar productos o realizar consultas:</p>
+    <ul>
+      <li>Email: emmanuelherrera14.09@gmail.com</li>
+      <li>Telefono: +54 (011) 6971-6827</li>
+    </ul>
+  </section> <footer>
+    <p>&copy; 2025 Química B&A. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
